@@ -9,7 +9,7 @@ from collections import Counter
 from nltk.corpus import stopwords
 import string
 
-nltk.download('punckt')
+# nltk.download('punckt')
 nltk.download('stopwords')
 
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
