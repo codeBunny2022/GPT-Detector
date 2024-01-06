@@ -49,7 +49,7 @@ def plot_top_repeated_words(text):
 
 st.set_page_config(layout="wide")
 
-st.title("Captian GPT")
+st.title("GPT-Warden")
 text_area = st.text_area("Enter text", "")
 
 if text_area is not None:
